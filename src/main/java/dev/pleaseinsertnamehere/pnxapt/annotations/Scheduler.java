@@ -1,0 +1,14 @@
+package dev.pleaseinsertnamehere.pnxapt.annotations;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.TYPE, ElementType.METHOD})
+@Retention(RetentionPolicy.SOURCE)
+public @interface Scheduler {
+    int delay() default 0;
+    int period() default 0;
+    boolean async() default false;
+}
