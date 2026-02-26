@@ -12,6 +12,7 @@ PNX-APT removes boilerplate from your plugin development by generating code at c
 
 - `@PluginMeta` — generates your `plugin.yml` from code
 - `@AutoListener` — automatically registers all your event listeners
+- `@Scheduler` — auto-registers and schedules tasks
 
 ### Planned in future releases:
 - `@Command` — auto-registers commands
