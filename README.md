@@ -8,6 +8,7 @@ PNX-APT removes boilerplate from your plugin development by generating code at c
 
 > [!NOTE]
 > This repository is no longer maintained as the annotation processor is now natively implemented in PowerNukkitX.
+> Check out [PR#2618](<https://github.com/PowerNukkitX/PowerNukkitX/pull/2618>) for more information.
 
 ---
 
