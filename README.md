@@ -6,6 +6,9 @@
 
 PNX-APT removes boilerplate from your plugin development by generating code at compile time. Instead of manually registering every listener, command, and config value — just annotate your classes and let the processor handle the rest.
 
+> [!NOTE]
+> This repository is no longer maintained as the annotation processor is now natively implemented in PowerNukkitX.
+
 ---
 
 ## Features
